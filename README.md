@@ -36,10 +36,6 @@ These scripts are intended for:
 ## 🧱 Structure
 
 Each remediation follows a consistent pattern:
-/ScriptName
-├── Detect.ps1
-├── Remediate.ps1
-└── README.md
 
 ### Detect Script
 - Checks current state
