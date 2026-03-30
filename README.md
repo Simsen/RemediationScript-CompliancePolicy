@@ -54,17 +54,16 @@ Each remediation follows a consistent pattern:
 
 ## 🔐 Focus Areas
 
-Scripts in this repository typically cover:
+Scripts in this repository cover:
 
-- Defender configuration (AV, ASR, Tamper Protection)
-- Windows security settings
-- BitLocker enforcement
-- Firewall configuration
-- Registry-based hardening
-- CIS / Microsoft Security Baseline alignment
-- Local security policies
-- OS configuration drift
-
+- BitLocker
+- Firewall
+- Code Integrity
+- Antivirus
+- Antimalware
+- Real-time protection
+- Defender engine version
+  
 ---
 
 ## 🚀 Deployment (Intune)
@@ -104,12 +103,7 @@ Remediation ensures:
 ## ⚠️ Important Notes
 
 - Always test scripts in **pilot groups**
-- Validate against your **security baseline**
-- Some settings may conflict with:
-- GPO (Hybrid environments)
-- Third-party tools
-- Use with proper change management
-
+  
 ---
 
 ## 🤝 Contributing
@@ -142,7 +136,7 @@ This project is inspired by the need for **continuous compliance**, similar in s
 ## 👨‍💻 Author
 
 Simon Eriksen  
-Cloud Solutions Architect | Microsoft MVP  
+Cloud Architect | Microsoft MVP  
 Focused on Intune, Security, and Modern Endpoint Management
 
 ---
