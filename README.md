@@ -26,9 +26,8 @@ This repository provides **automated remediation scripts** to bring devices back
 
 These scripts are intended for:
 
-- Microsoft Intune (Endpoint Analytics → Proactive Remediations)
+- Microsoft Intune (Remediation Scripts)
 - Cloud-native / Entra ID joined devices
-- Security baseline enforcement
 - Continuous compliance monitoring
 
 ---
